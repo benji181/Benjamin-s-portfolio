@@ -12,7 +12,7 @@ const Experience = () => {
       logo: "https://images.unsplash.com/photo-1562774053-701939374585?w=200&h=200&fit=crop&crop=center",
       company: "Nigerian Software Foundation (NFS)",
       role: " Mobile Frontend Developer",
-      period: "April - June 2025",
+      period: "April - June 2021",
       url: "https://software-ng.com/"
     },
     {
