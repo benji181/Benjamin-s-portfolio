@@ -5,13 +5,12 @@ const Experience = () => {
       {
       company: "GN128 solutions limited",
       role: "Mobile SOftware Engineer",
-      period: " April 2025",
     },
     {
       logo: "https://media.licdn.com/dms/image/v2/C4E03AQEDLim-0oc2iA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1631381441803?e=1755734400&v=beta&t=FMADReR9emC-eFQIhwj8XU4UmDDmMwcEhcBfpErsaSg",
       company: "CBC CRYPTO BOOTCAMP",
       role: "Frontend Developer",
-      period: "July 2025",
+     
     },
      {
       logo: "https://images.unsplash.com/photo-1562774053-701939374585?w=200&h=200&fit=crop&crop=center",
