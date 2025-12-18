@@ -45,27 +45,30 @@ const About = () => {
                                 </div>
                             </div>
 
-                            <Separator className="my-8 bg-border/30" />
+                            <Separator className="my-1 bg-border/10" />
 
                             <div className="space-y-6">
                                 <p className="text-lg leading-relaxed">
-                                    I'm a passionate <span className="font-bold text-primary">Full‑Stack Developer</span> based in Nigeria.
-                                    With strong expertise in <span className="font-semibold">Java, Spring Boot, React, Flutter, and modern cloud integrations</span>,
-                                    I transform complex problems into intuitive, scalable digital solutions.
+                                    I'm a passionate <span className="font-bold text-primary">Full‑Stack Developer</span> based in Nigeria, dedicated to turning ideas into robust digital experiences.
+                                    With expertise in <span className="font-semibold">Frontend, backend and modern cloud integrations</span>, I specialize in transforming complex challenges into intuitive, scalable, and maintainable solutions.
                                 </p>
 
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    Over the years, I've architected everything from enterprise‑grade backends to cross‑platform mobile applications.
-                                    My toolkit includes <span className="font-medium">MySQL, Firebase, Docker, Kubernetes, AWS</span>, and other cutting‑edge technologies
-                                    that ensure performance, scalability, and maintainability.
+                                <p className="text-lg leading-relaxed">
+                                    Over the years, I’ve architected everything from enterprise‑grade backends to seamless cross‑platform mobile applications.
+                                    My toolkit spans <span className="font-medium">Springboot, JavaScript,  Python, Dart, C, SQL, HTML, CSS, Node.js, Flutter,React, Django, Spring MVC, , MySQL, PostgreSQL, MongoDB, Firebase</span>, and more, enabling me to deliver performant and reliable systems for diverse projects.
                                 </p>
 
-                                <p className="text-lg leading-relaxed text-muted-foreground">
-                                    What drives me is the intersection of creativity and logic—crafting interfaces that delight users while
-                                    engineering systems that stand the test of time. I believe in building not just software, but experiences
-                                    that empower businesses and enrich lives.
+                                <p className="text-lg leading-relaxed">
+                                    I thrive at the intersection of creativity and logic crafting engaging interfaces while building resilient systems behind the scenes.
+                                    My mission is to deliver not just software, but meaningful experiences that empower businesses, delight users, and make a lasting impact.
+                                </p>
+
+                                <p className="text-lg leading-relaxed">
+                                    Beyond coding, I value collaboration, continuous learning, and innovation. Whether working with cross-functional teams or exploring emerging technologies, I aim to bridge the gap between technical excellence and real-world impact, ensuring every project leaves a mark of quality and usability.
                                 </p>
                             </div>
+
+
                         </CardContent>
                     </Card>
 
@@ -78,17 +81,6 @@ const About = () => {
                                     My Expertise
                                 </h3>
                                 <div className="space-y-6">
-                                    <div className="flex items-start gap-4">
-                                        <div className="bg-primary/10 p-2 rounded-lg">
-                                            <Palette className="h-5 w-5 text-primary" />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-semibold mb-1">UI/UX Design</h4>
-                                            <p className="text-sm text-muted-foreground">
-                                                Creating intuitive, accessible interfaces with user‑centric design principles
-                                            </p>
-                                        </div>
-                                    </div>
 
                                     <div className="flex items-start gap-4">
                                         <div className="bg-primary/10 p-2 rounded-lg">
@@ -101,6 +93,21 @@ const About = () => {
                                             </p>
                                         </div>
                                     </div>
+
+
+                                    <div className="flex items-start gap-4">
+                                        <div className="bg-primary/10 p-2 rounded-lg">
+                                            <Palette className="h-5 w-5 text-primary" />
+                                        </div>
+                                        <div>
+                                            <h4 className="font-semibold mb-1">UI/UX Design</h4>
+                                            <p className="text-sm text-muted-foreground">
+                                                Creating intuitive, accessible interfaces with user‑centric design principles
+                                            </p>
+                                        </div>
+                                    </div>
+
+
 
                                     <div className="flex items-start gap-4">
                                         <div className="bg-primary/10 p-2 rounded-lg">
@@ -160,7 +167,7 @@ const About = () => {
                 <div className="grid md:grid-cols-3 gap-6">
                     <Card className="border-border/30 bg-gradient-to-br from-card to-card/80 backdrop-blur-sm">
                         <CardContent className="p-6 text-center">
-                            <div className="text-3xl font-bold text-primary mb-2">50+</div>
+                            <div className="text-3xl font-bold text-primary mb-2">12+</div>
                             <p className="text-sm text-muted-foreground">Projects Completed</p>
                         </CardContent>
                     </Card>
@@ -172,7 +179,7 @@ const About = () => {
                     </Card>
                     <Card className="border-border/30 bg-gradient-to-br from-card to-card/80 backdrop-blur-sm">
                         <CardContent className="p-6 text-center">
-                            <div className="text-3xl font-bold text-primary mb-2">4+</div>
+                            <div className="text-3xl font-bold text-primary mb-2">5+</div>
                             <p className="text-sm text-muted-foreground">Years Experience</p>
                         </CardContent>
                     </Card>

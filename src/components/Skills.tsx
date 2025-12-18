@@ -287,21 +287,6 @@ const Skills = () => {
                     </div>
                 </div>
 
-                {/* Call to Action */}
-                <div className="text-center">
-                    <Card className="max-w-3xl mx-auto border-border/30 bg-gradient-to-r from-primary/5 via-transparent to-primary/5 backdrop-blur-sm">
-                        <CardContent className="p-6 sm:p-8">
-                            <h3 className="text-xl sm:text-2xl font-bold mb-4">Need a Specific Skill?</h3>
-                            <p className="text-base sm:text-lg text-muted-foreground mb-6">
-                                My skill set is continuously evolving. If you don't see a specific technology here,
-                                feel free to ask - I'm always eager to learn and adapt to new challenges.
-                            </p>
-                            <button className="px-5 py-2.5 sm:px-6 sm:py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm sm:text-base">
-                                Contact for Custom Solutions
-                            </button>
-                        </CardContent>
-                    </Card>
-                </div>
             </div>
         </section>
     );

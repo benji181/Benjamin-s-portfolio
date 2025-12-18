@@ -19,7 +19,7 @@ const Experience = () => {
     const experiences = [
         {
             type: "work",
-            logo: "https://via.placeholder.com/48/3b82f6/ffffff?text=GN",
+            logo: "Assests/ProjectImages/gen128_solutions_logo (1).jpg",
             company: "GN128 Solutions Limited",
             role: "Mobile Software Engineer",
             period: "2024 - Present",
@@ -36,7 +36,7 @@ const Experience = () => {
         },
         {
             type: "work",
-            logo: "https://via.placeholder.com/48/8b5cf6/ffffff?text=CBC",
+            logo: "Assests/ProjectImages/crypto_bootcamp_community_logo.jpg",
             company: "CBC Crypto Bootcamp",
             role: "Frontend Developer",
             period: "2023 - 2024",
@@ -53,7 +53,7 @@ const Experience = () => {
         },
         {
             type: "work",
-            logo: "https://via.placeholder.com/48/10b981/ffffff?text=NSF",
+            logo: "Assests/ProjectImages/logo_swf.gif",
             company: "Nigerian Software Foundation (NSF)",
             role: "Mobile Frontend Developer",
             period: "April - June 2021",
@@ -70,7 +70,7 @@ const Experience = () => {
         },
         {
             type: "education",
-            logo: "https://via.placeholder.com/48/ef4444/ffffff?text=ACE",
+            logo: "Assests/ProjectImages/download.png",
             company: "Aptech Computer Education",
             role: "Advanced Diploma in Software Engineering",
             period: "2023 - 2025",

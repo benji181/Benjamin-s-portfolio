@@ -15,21 +15,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {useState} from "react";
 
 const services = [
-    {
-        icon: <Palette className="h-8 w-8" />,
-        title: "UI/UX Design",
-        description: "Crafting intuitive and visually appealing user experiences for web and mobile applications.",
-        details: [
-            "User Research & Persona Development",
-            "Wireframing & Prototyping",
-            "Visual Design Systems",
-            "Usability Testing",
-            "Design Handoff & Developer Collaboration"
-        ],
-        color: "from-purple-500/10 to-purple-600/5",
-        iconColor: "text-purple-500",
-        badge: "Figma, Adobe XD"
-    },
+
     {
         icon: <Code className="h-8 w-8" />,
         title: "Web Development",
@@ -37,13 +23,13 @@ const services = [
         details: [
             "Frontend Development (React, TypeScript)",
             "Backend Development (Spring Boot, Node.js)",
-            "RESTful & GraphQL APIs",
+            "RESTful-APIs",
             "Performance Optimization",
             "Progressive Web Apps"
         ],
         color: "from-blue-500/10 to-blue-600/5",
         iconColor: "text-blue-500",
-        badge: "React, Spring Boot"
+        badge: "React, Spring Boot, Html,Css Js"
     },
     {
         icon: <Smartphone className="h-8 w-8" />,
@@ -58,7 +44,22 @@ const services = [
         ],
         color: "from-green-500/10 to-green-600/5",
         iconColor: "text-green-500",
-        badge: "Flutter, React Native"
+        badge: "Flutter"
+    },
+    {
+        icon: <Palette className="h-8 w-8" />,
+        title: "UI/UX Design",
+        description: "Crafting intuitive and visually appealing user experiences for web and mobile applications.",
+        details: [
+            "User Research & Persona Development",
+            "Wireframing & Prototyping",
+            "Visual Design Systems",
+            "Usability Testing",
+            "Design Handoff & Developer Collaboration"
+        ],
+        color: "from-purple-500/10 to-purple-600/5",
+        iconColor: "text-purple-500",
+        badge: "Figma"
     },
     {
         icon: <Database className="h-8 w-8" />,
@@ -80,15 +81,15 @@ const services = [
         title: "Cloud & DevOps",
         description: "Implementing scalable cloud infrastructure and CI/CD pipelines for reliable deployments.",
         details: [
-            "Cloud Architecture (AWS, GCP)",
-            "Containerization (Docker, Kubernetes)",
+            "Cloud Architecture (Digital Ocean)",
+            "Containerization (Docker)",
             "CI/CD Pipeline Setup",
             "Infrastructure as Code",
             "Monitoring & Logging"
         ],
         color: "from-cyan-500/10 to-cyan-600/5",
         iconColor: "text-cyan-500",
-        badge: "AWS, Docker"
+        badge: "Docker"
     },
     {
         icon: <Layers className="h-8 w-8" />,
@@ -204,29 +205,7 @@ const Services = () => {
                     ))}
                 </div>
 
-                {/* Call to Action */}
-                <div className="text-center">
-                    <Card className="max-w-2xl mx-auto border-border/30 bg-gradient-to-r from-primary/5 via-transparent to-primary/5 backdrop-blur-sm">
-                        <CardContent className="p-8 md:p-12">
-                            <Zap className="h-12 w-12 text-primary mx-auto mb-6" />
-                            <h3 className="text-3xl font-bold mb-4">
-                                Ready to Build Something Amazing?
-                            </h3>
-                            <p className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto">
-                                Let's collaborate to bring your vision to life with cutting-edge technology and exceptional design.
-                            </p>
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                <Button size="lg" className="px-8 py-6 text-lg font-medium">
-                                    Start a Project
-                                </Button>
-                                <Button size="lg" variant="outline" className="px-8 py-6 text-lg">
-                                    Schedule a Consultation
-                                </Button>
-                            </div>
-                        </CardContent>
-                    </Card>
-                </div>
-            </div>
+               </div>
         </section>
     );
 };
