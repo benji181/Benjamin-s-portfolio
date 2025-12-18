@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -78,19 +77,21 @@ const Projects = () => {
     return (
         <section id="projects" className="py-20 px-4 sm:px-6 relative overflow-hidden">
             {/* Background decorative elements */}
-            <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background pointer-events-none" />
-            <div className="absolute top-1/4 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-primary/5 rounded-full blur-3xl" />
-            <div className="absolute bottom-1/4 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-secondary/5 rounded-full blur-3xl" />
+            <div
+                className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background pointer-events-none"/>
+            <div className="absolute top-1/4 right-10 w-72 h-72 sm:w-96 sm:h-96 bg-primary/5 rounded-full blur-3xl"/>
+            <div
+                className="absolute bottom-1/4 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-secondary/5 rounded-full blur-3xl"/>
 
             <div className="max-w-7xl mx-auto relative z-10">
                 {/* Section Header */}
                 <div className="text-center mb-12 sm:mb-16">
                     <div className="inline-flex items-center gap-3 mb-4">
-                        <div className="w-8 sm:w-12 h-0.5 bg-primary" />
+                        <div className="w-8 sm:w-12 h-0.5 bg-primary"/>
                         <span className="text-primary font-semibold uppercase tracking-wider text-xs sm:text-sm">
               Portfolio Showcase
             </span>
-                        <div className="w-8 sm:w-12 h-0.5 bg-primary" />
+                        <div className="w-8 sm:w-12 h-0.5 bg-primary"/>
                     </div>
 
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
@@ -118,7 +119,7 @@ const Projects = () => {
                         onClick={() => setActiveFilter('web')}
                         className="rounded-full"
                     >
-                        <Globe className="h-4 w-4 mr-2" />
+                        <Globe className="h-4 w-4 mr-2"/>
                         Web Apps
                     </Button>
                     <Button
@@ -127,7 +128,7 @@ const Projects = () => {
                         onClick={() => setActiveFilter('mobile')}
                         className="rounded-full"
                     >
-                        <Smartphone className="h-4 w-4 mr-2" />
+                        <Smartphone className="h-4 w-4 mr-2"/>
                         Mobile Apps
                     </Button>
                     <Button
@@ -136,7 +137,7 @@ const Projects = () => {
                         onClick={() => setActiveFilter('game')}
                         className="rounded-full"
                     >
-                        <GamepadIcon className="h-4 w-4 mr-2" />
+                        <GamepadIcon className="h-4 w-4 mr-2"/>
                         Games
                     </Button>
                 </div>
@@ -146,12 +147,13 @@ const Projects = () => {
                     {filteredProjects.map((project, index) => (
                         <motion.div
                             key={project.title}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            viewport={{ once: true }}
+                            initial={{opacity: 0, y: 20}}
+                            whileInView={{opacity: 1, y: 0}}
+                            transition={{duration: 0.5, delay: index * 0.1}}
+                            viewport={{once: true}}
                         >
-                            <Card className="group relative overflow-hidden border-border/30 bg-gradient-to-b from-card to-card/95 backdrop-blur-sm h-full hover:shadow-xl transition-all duration-300">
+                            <Card
+                                className="group relative overflow-hidden border-border/30 bg-gradient-to-b from-card to-card/95 backdrop-blur-sm h-full hover:shadow-xl transition-all duration-300">
                                 {/* Project Status Badge */}
                                 <div className="absolute top-4 right-4 z-10">
                                     <Badge
@@ -163,8 +165,10 @@ const Projects = () => {
                                 </div>
 
                                 {/* Project Image */}
-                                <div className="relative h-48 sm:h-56 overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
-                                    <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent z-10" />
+                                <div
+                                    className="relative h-48 sm:h-56 overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
+                                    <div
+                                        className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent z-10"/>
                                     <img
                                         src={project.image}
                                         alt={project.title}
@@ -190,7 +194,7 @@ const Projects = () => {
                                                         rel="noopener noreferrer"
                                                         className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                                                     >
-                                                        <Eye className="h-4 w-4" />
+                                                        <Eye className="h-4 w-4"/>
                                                     </a>
                                                 )}
                                                 {project.githubUrl && (
@@ -200,7 +204,7 @@ const Projects = () => {
                                                         rel="noopener noreferrer"
                                                         className="p-2 rounded-lg bg-secondary/10 text-secondary hover:bg-secondary hover:text-secondary-foreground transition-colors"
                                                     >
-                                                        <Github className="h-4 w-4" />
+                                                        <Github className="h-4 w-4"/>
                                                     </a>
                                                 )}
                                             </div>
@@ -228,13 +232,15 @@ const Projects = () => {
                                     {/* Features List */}
                                     <div className="mb-6">
                                         <div className="flex items-center gap-2 text-sm font-semibold mb-3">
-                                            <Sparkles className="h-4 w-4 text-primary" />
+                                            <Sparkles className="h-4 w-4 text-primary"/>
                                             Key Features
                                         </div>
                                         <ul className="space-y-2">
                                             {project.features.slice(0, 3).map((feature, i) => (
-                                                <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
-                                                    <div className="w-1.5 h-1.5 rounded-full bg-primary/50 mt-1.5 flex-shrink-0" />
+                                                <li key={i}
+                                                    className="flex items-start gap-2 text-sm text-muted-foreground">
+                                                    <div
+                                                        className="w-1.5 h-1.5 rounded-full bg-primary/50 mt-1.5 flex-shrink-0"/>
                                                     <span>{feature}</span>
                                                 </li>
                                             ))}
@@ -255,7 +261,7 @@ const Projects = () => {
                                                     rel="noopener noreferrer"
                                                     className="flex items-center justify-center gap-2"
                                                 >
-                                                    <Eye className="h-4 w-4" />
+                                                    <Eye className="h-4 w-4"/>
                                                     Live Demo
                                                 </a>
                                             </Button>
@@ -272,7 +278,7 @@ const Projects = () => {
                                                 rel="noopener noreferrer"
                                                 className="flex items-center justify-center gap-2"
                                             >
-                                                <Code className="h-4 w-4" />
+                                                <Code className="h-4 w-4"/>
                                                 View Code
                                             </a>
                                         </Button>
@@ -287,80 +293,6 @@ const Projects = () => {
             </div>
         </section>
     );
-=======
-import { ExternalLink } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import ProjectCard from "./ProjectCard";
-
-const Projects = () => {
-  const featuredProjects = [
-    {
-      title: "Pro-Connect",
-      description: "Job hunting platform built with react and firebase for backend sevices",
-      image: "Assests\\ProjectImages\\proconnectimage.png",
-      url: "https://proconnect-eta.vercel.app/"
-    },
-    {
-      title: "Number Guessing Game",
-      description: "A Web Game built with frontend technologies (Html,css,javascript) , and Django for backend",
-      image: "Assests\\ProjectImages\\Number-Guessing-Game.png",
-      url: "https://github.com/benji181/NGGame"
-    },
-    {
-      title: "Sky-CLock",
-      description: "Built a Flutter‑based mobile application that provides real‑time weather updates and global time zone conversions.",
-      image: "Assests\\ProjectImages\\Sky-clock.png",
-      url: "https://github.com/benji181/SkyClock.git"
-    }
-  ];
-
-  return (
-    <section id="projects" className="py-20 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
-            Featured Projects
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in">
-            A showcase of my recent work and side projects
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {featuredProjects.map((project, index) => (
-            <ProjectCard
-              key={project.title}
-              {...project}
-              className="animate-scale-in"
-              style={{
-                animationDelay: `${index * 0.2}s`,
-                animationFillMode: 'backwards'
-              }}
-            />
-          ))}
-        </div>
-
-        <div className="text-center">
-        <a 
-  href="https://github.com/benji181" 
-  target="_blank" 
-  rel="noopener noreferrer"
->
-  <Button
-    variant="outline"
-    size="lg"
-    className="border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-  >
-    <ExternalLink className="mr-2 h-5 w-5" />
-    Explore More
-  </Button>
-</a>
-
-        </div>
-      </div>
-    </section>
-  );
->>>>>>> 224b2926ed23ff35b74273720875242b89c1a418
-};
+}
 
 export default Projects;

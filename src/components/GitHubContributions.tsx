@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -186,27 +185,6 @@ const GitHubContributions = () => {
             </div>
         </section>
     );
-=======
-const GitHubContributions = () => {
-  return (
-    <section className="py-20 px-6">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 animate-fade-in">
-          My GitHub Contributions
-        </h2>
-        
-        <div className="bg-card rounded-xl p-8 border border-border/50 animate-scale-in">
-          <img 
-            src="https://ghchart.rshah.org/008000/benji181" 
-            alt="GitHub Contributions Graph"
-            className="w-full max-w-3xl mx-auto rounded-lg"
-          />
-        
-        </div>
-      </div>
-    </section>
-  );
->>>>>>> 224b2926ed23ff35b74273720875242b89c1a418
 };
 
 export default GitHubContributions;
