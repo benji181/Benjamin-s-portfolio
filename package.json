@@ -45,7 +45,6 @@
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.3.0",
-<<<<<<< HEAD
     "framer-motion": "^12.23.26",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.462.0",
@@ -53,11 +52,9 @@
     "nodemon": "^3.1.11",
     "ogl": "^1.0.11",
     "postprocessing": "^6.38.1",
-=======
     "input-otp": "^1.2.4",
     "lucide-react": "^0.462.0",
     "next-themes": "^0.3.0",
->>>>>>> 224b2926ed23ff35b74273720875242b89c1a418
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
@@ -69,10 +66,7 @@
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-<<<<<<< HEAD
     "three": "^0.182.0",
-=======
->>>>>>> 224b2926ed23ff35b74273720875242b89c1a418
     "typed.js": "^2.1.0",
     "vaul": "^0.9.3",
     "zod": "^3.23.8"
