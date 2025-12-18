@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design system – HSL-only colors and gradients. */
+@keyframes infinite-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-infinite-scroll {
+    animation: infinite-scroll 90s linear infinite;
+    display: flex;
+    width: max-content;
+}
+
+
+@layer base {
+  :root {
+    /* Portfolio True Black Theme Design System */
+    --background: 0 0% 0%;          /* Black */
+    --foreground: 0 0% 98%;
+
+    --card: 225 25% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 225 25% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 225 25% 12%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 225 25% 12%;
+    --muted-foreground: 0 0% 63%;
+
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 225 25% 15%;
+    --input: 225 25% 15%;
+    --ring: 142 76% 36%;
+
+    --radius: 0.75rem;
+
+    /* Portfolio-specific tokens */
+    --tech-badge: 225 25% 15%;
+    --tech-badge-foreground: 0 0% 80%;
+    --tech-badge-active: 142 76% 36%;
+    --tech-badge-active-foreground: 0 0% 98%;
+
+    --project-card: 225 25% 8%;
+    --project-card-hover: 225 25% 12%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(184, 100%, 34%), hsl(157, 62%, 4%));
+    --gradient-secondary: linear-gradient(135deg, hsl(225 25% 8%), hsl(225 25% 12%));
+
+    --shadow-glow: 0 0 40px hsl(0, 100%, 96%);
+    --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.3);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Dark mode uses same tokens (black background) */
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+    --card: 225 25% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 225 25% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 225 25% 12%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 225 25% 12%;
+    --muted-foreground: 0 0% 63%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 225 25% 15%;
+    --input: 225 25% 15%;
+    --ring: 142 76% 36%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    /* 'bg-background' will now be pure black. */
+  }
+}
