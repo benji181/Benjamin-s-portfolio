@@ -175,7 +175,7 @@ const Hero = () => {
                     {/* Resume Button */}
                     <div className="pt-2 sm:pt-4">
                         <a
-                            href="https://github.com/benji181/Benjamin-s-portfolio/blob/f292dfba5a9f1fa0c75983f56a66a7b362b3fcb4/Assests/resume_olabisi_boluwatife.pdf"
+                            href="Assests/resume_olabisi_boluwatife.pdf"
                             download
                             className="inline-flex items-center px-6 py-4 sm:px-8 sm:py-6 text-base sm:text-lg font-mediumbg-green-900 bg-green-600 text-white border-2 border-green-900 rounded-lg shadow-lg hover:bg-transparent hover:text-green-400 hover:border-green-600 hover:shadow-green-500/20transition-all duration-300"
                             target="_blank"
