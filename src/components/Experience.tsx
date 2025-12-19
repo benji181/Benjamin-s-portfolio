@@ -21,53 +21,74 @@ const Experience = () => {
             type: "work",
             logo: "Assests/ProjectImages/gen128_solutions_logo (1).jpg",
             company: "GN128 Solutions Limited",
-            role: "Mobile Software Engineer",
+            role: "Full-Stack Developer (Mobile/Web)",
             period: "2024 - Present",
-            location: "Lagos, Nigeria",
-            description: "Developing cross-platform mobile applications using Flutter and React Native, implementing modern UI/UX principles and integrating with RESTful APIs.",
-            technologies: ["Flutter", "React Native", "Firebase", "REST APIs", "Dart", "JavaScript"],
+            location: "Lagos, Nigeria (On-site)",
+            description: "Developing cross-platform mobile applications using Flutter , implementing modern UI/UX principles and integrating with RESTful APIs.",
+            technologies: ["Flutter", "Springboot", "Java", "Firebase", "REST APIs", "Dart", "JavaScript"],
             achievements: [
-                "Built 3+ mobile applications from scratch to deployment",
+                "Built 2+ mobile applications from scratch to deployment",
                 "Improved app performance by 40% through code optimization",
-                "Integrated Firebase for real-time data synchronization",
+                "Integrated APIs from lavarvel backend",
                 "Collaborated with design team to implement pixel-perfect UIs"
             ],
-            url: "#"
+            url: "https://Gn128.com"
         },
         {
+            type: "education",
+            logo: "https://schooltry-tertiary-2.s3.eu-west-1.amazonaws.com/institutionLogos/WMOU_0806%20370%2038031716913430.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJGMEQCIB7j%2FIFMTMYdcQDIM0STyWo%2FKa9tOejOW2wHxWbu2XrTAiBeZEPnRymr7qU8AtKgrEkBfzfZj12LTwoTezuUmU5kYyrEBQir%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDM1OTI0MTA4MDkzNSIMpxhKOL0msTgBP2j7KpgFh97rF%2Fjcf1iUOMG4f2ki0ZTsFMPENIuRXVHDfikC7A02ucT%2FyR0yR0QMrP8hlWWEtnUIuNF8V0q%2BYsA8BnPn9iyF%2BuSMkVeqpvaNz9NWXQLxdFoau5icymK5XJuIi72ST3a11Oh05GLXsh5xWYstHzcjKf%2BJGL9opHLe4kxiBBJN399Nzwt4wPX4NZdmFUmCvo0pJ%2FI3wKYe1wXZyfm%2BwPxzdoh8LuA2oueTg5JQ41cYNntR1v%2Bg9szHzAp6joIPxnfgn0ZlzWCFB0TcpMzX7E0WrH8bu5Mb28mRuYLAcB%2FiwTMxjs%2BXIG5u%2Fh7Pd0vbjT%2FipUZpoMGv1wlcxw0UTTGYIAqmB0KA5aVKrZSBIcSM7kSfp3KboamF8OGsGjVM%2BhwRyYQEDvAb0H9vJFUNiV2F1cipHdeTcrdSsO4G189a9Wtxu6V%2B6r%2BXeL%2FWnS2sbxbdMTggm%2F%2FmQn86sLOOFCk80ZHFxGlMGhFbpvogvR1PzCahOwoSvosn5H9AMpU1RZ38SAFjNgKJituLSSwbQQTvepCtuN252XhhUFz2USrs4B8YzT7JysdNIBdh4q%2Bc7fDmvh1HWZplyVEyMnH911Zq8KsBN6HBK1Gxe3DqBTLfGM5d5u9BhFQhEAnxP0oEjt%2BoPsnWaFXyWxt4gnZDz%2BGuwlWoOIlkhLX2H0m5tiGXYPlYw7tHMdREIsI0883eq2TiG3YX0OgyJGWr9OlBLXXFXuhhLNdHVWcvFEJ9krbvLDLbEDcABgw9GA1JdTe1k0S7D7XOIapSXVb4ygdR72uMyBwpJV8Q9yw7omYOnA8E93UYgfik5qyweQoVUFfQyy4jHbijdg1YbAyfUfgEncwBAlcNEe37uUDRinMaW2lMpuGc0NFBZTD6tpTKBjqyAVKMgDP0TSYGQMpk416gVskFBzTbIkM8qYEWPL8wHeiGekJlqR6Rr88D%2F5i1%2Bz3VqENwAPCt8GzYSlhM33O%2FxYhY%2BRzHyluNSw34gRaaDz%2BeX14hZelP1YWGSNcRokxvNZSKLu6F7PXnduQwC6tio9gI7EaU6oJYv7EyABG0JMJ%2FfYr4sOdlK65E5YVL9Y6JNm2kFxJoikoi11wUsJnx%2BqqpeEpc6IYNlWnC2KqZxAgiO60%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVHJDP4BTVYQOSOHK%2F20251219%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T100451Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Signature=f0d6da898ecf93705648dbe20b5ec6412a92bcca6437113aca26a32cf0831c6e",
+            company: "West Midlands Open University",
+            role: "BSc Computer Science",
+            period: "2026 - 2029",
+            location: "Lagos, Nigeria (online)",
+            description: "Undergraduate study in Computer Science with focus on software development, computing fundamentals, and problem-solving skills applicable to real-world systems.Just to strengthen my educational background",
+            technologies: [],
+            achievements: [
+                "Introduction to Computer Science",
+                "Programming Fundamentals",
+                "Discrete Mathematics",
+                "Computer Hardware & Software",
+                "Use of English"
+            ],
+            url: "https://https://westmidlands.university"
+        },
+        {
+
             type: "work",
-            logo: "Assests/ProjectImages/crypto_bootcamp_community_logo.jpg",
-            company: "CBC Crypto Bootcamp",
+            logo: "Assests/ProjectImages/gen128_solutions_logo (1).jpg",company: "CBC Crypto Bootcamp",
             role: "Frontend Developer",
             period: "2023 - 2024",
             location: "Remote",
             description: "Developed responsive web applications for cryptocurrency education platform, focusing on user experience and modern design patterns.",
-            technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Web3.js"],
+            technologies: ["React", "Html", "Javascript", " CSS", "Web3.js"],
             achievements: [
                 "Reduced page load time by 30% through code splitting",
                 "Implemented responsive design for mobile-first approach",
                 "Integrated cryptocurrency APIs for real-time data",
                 "Mentored 5+ junior developers in React best practices"
             ],
-            url: "#"
+            url: "https://cbc-op22.vercel.app/"
         },
         {
             type: "work",
             logo: "Assests/ProjectImages/logo_swf.gif",
             company: "Nigerian Software Foundation (NSF)",
-            role: "Mobile Frontend Developer",
-            period: "April - June 2021",
+            role: "Website Developer",
+            period: "January 2021",
             location: "Lagos, Nigeria",
-            description: "Contributed to open-source mobile applications focused on community development and software education in Nigeria.",
-            technologies: ["React Native", "Redux", "Git", "Figma", "Node.js"],
+            description: "Completed an intensive 16-week software development bootcamp focused on responsive web development and full-stack fundamentals.",
+            technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Git"],
             achievements: [
-                "Developed 2 mobile applications for community initiatives",
-                "Participated in code reviews and collaborative development",
-                "Documented codebase for future contributors",
-                "Presented technical solutions to stakeholders"
+                "Completed a 16-week intensive bootcamp focused on responsive web development",
+                "Built and deployed a web application with authentication, dynamic UI, and API integration",
+                "Collaborated in a team of four to develop an e-commerce web platform",
+                "Integrated payment gateways and optimized performance and accessibility",
+                "Used Git for version control to streamline team collaboration",
+                "Configured CI/CD workflows using GitHub Actions, reducing deployment time by 15%"
             ],
             url: "https://software-ng.com/"
         },
+
         {
             type: "education",
             logo: "Assests/ProjectImages/download.png",
@@ -305,22 +326,6 @@ const Experience = () => {
                             </motion.div>
                         ))}
                     </div>
-                </div>
-
-                {/* Call to Action */}
-                <div className="text-center mt-12 sm:mt-16">
-                    <Card className="max-w-3xl mx-auto border-border/30 bg-gradient-to-r from-primary/5 via-transparent to-primary/5 backdrop-blur-sm">
-                        <CardContent className="p-6 sm:p-8">
-                            <h3 className="text-xl sm:text-2xl font-bold mb-4">Looking for Collaboration?</h3>
-                            <p className="text-base sm:text-lg text-muted-foreground mb-6">
-                                I'm always open to discussing new opportunities, interesting projects, or potential collaborations.
-                                Let's connect and build something amazing together!
-                            </p>
-                            <Button size="lg" className="px-6 py-3 sm:px-8 sm:py-4">
-                                Let's Connect
-                            </Button>
-                        </CardContent>
-                    </Card>
                 </div>
             </div>
         </section>

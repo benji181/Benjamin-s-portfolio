@@ -26,7 +26,7 @@ function Stars({ count }: { count: number }) {
 }
 
 const Testimonials = () => (
-  <section id="testimonials" className="py-20 px-6 max-w-4xl mx-auto">
+  <section id="testimonials" className="py-20 px-6 max-w-8xl mx-auto">
     <h2 className="text-4xl font-bold text-center mb-10">Testimonials</h2>
     <div className="grid gap-8 md:grid-cols-2">
       {testimonials.map(t => (

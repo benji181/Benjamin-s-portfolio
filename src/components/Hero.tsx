@@ -91,7 +91,7 @@ const Hero = () => {
             strings: [
                 "A Software Developer",
                 "A Full‑stack Web Developer",
-                "A Mobile app Developer",
+                "A Mobile App Developer",
             ],
             typeSpeed: 50,
             backSpeed: 60,
@@ -181,7 +181,7 @@ const Hero = () => {
                             target="_blank"
                             rel="noopener noreferrer">
                             <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                            Get Resume
+                            Hire me
                         </a>
                     </div>
 

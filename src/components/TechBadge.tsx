@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 interface TechBadgeProps {
   children: React.ReactNode;
-  variant?: "default" | "active";
+  c?: "default" | "active";
   className?: string;
   style?: React.CSSProperties;
 }

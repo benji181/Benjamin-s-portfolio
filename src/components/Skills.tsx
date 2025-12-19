@@ -22,9 +22,9 @@ const skillsByCategory = [
         icon: <Palette className="h-5 w-5" />,
         color: "from-purple-500/20 to-purple-600/10",
         skills: [
-            { name: "HTML/CSS/JavaScript", percent: 85, icon: <Globe className="h-4 w-4" /> },
-            { name: "React", percent: 80, icon: <Layers className="h-4 w-4" /> },
-            { name: "UI/UX Design (Figma)", percent: 85, icon: <Palette className="h-4 w-4" /> },
+            { name: "HTML/CSS/JavaScript", percent: 95, icon: <Globe className="h-4 w-4" /> },
+            { name: "React", percent: 96, icon: <Layers className="h-4 w-4" /> },
+            { name: "UI/UX Design (Figma)", percent: 70, icon: <Palette className="h-4 w-4" /> },
             { name: "TypeScript", percent: 75, icon: <Code className="h-4 w-4" /> }
         ]
     },
@@ -33,10 +33,10 @@ const skillsByCategory = [
         icon: <Database className="h-5 w-5" />,
         color: "from-blue-500/20 to-blue-600/10",
         skills: [
-            { name: "MySQL", percent: 70, icon: <Database className="h-4 w-4" /> },
+            { name: "MySQL", percent: 99, icon: <Database className="h-4 w-4" /> },
             { name: "MongoDB", percent: 60, icon: <Database className="h-4 w-4" /> },
-            { name: "Firebase", percent: 70, icon: <Cpu className="h-4 w-4" /> },
-            { name: "RESTful APIs", percent: 80, icon: <Terminal className="h-4 w-4" /> }
+            { name: "Firebase", percent: 98, icon: <Cpu className="h-4 w-4" /> },
+            { name: "RESTful APIs", percent: 99, icon: <Terminal className="h-4 w-4" /> }
         ]
     },
     {
@@ -44,9 +44,8 @@ const skillsByCategory = [
         icon: <Smartphone className="h-5 w-5" />,
         color: "from-green-500/20 to-green-600/10",
         skills: [
-            { name: "Flutter", percent: 70, icon: <Smartphone className="h-4 w-4" /> },
-            { name: "React Native", percent: 65, icon: <Smartphone className="h-4 w-4" /> },
-            { name: "Mobile UI Design", percent: 75, icon: <Palette className="h-4 w-4" /> }
+            { name: "Flutter", percent: 99.99, icon: <Smartphone className="h-4 w-4" /> },
+            { name: "React Native", percent: 20, icon: <Smartphone className="h-4 w-4" /> },
         ]
     },
     {
@@ -54,10 +53,10 @@ const skillsByCategory = [
         icon: <Zap className="h-5 w-5" />,
         color: "from-amber-500/20 to-amber-600/10",
         skills: [
-            { name: "Git & GitHub", percent: 80, icon: <GitBranch className="h-4 w-4" /> },
-            { name: "Vercel", percent: 75, icon: <Cloud className="h-4 w-4" /> },
-            { name: "Postman", percent: 60, icon: <Terminal className="h-4 w-4" /> },
-            { name: "Docker & Kubernetes", percent: 65, icon: <Cpu className="h-4 w-4" /> }
+            { name: "Git & GitHub", percent: 90, icon: <GitBranch className="h-4 w-4" /> },
+            { name: "Vercel", percent: 99, icon: <Cloud className="h-4 w-4" /> },
+            { name: "Postman", percent: 99, icon: <Terminal className="h-4 w-4" /> },
+            { name: "Docker", percent: 99, icon: <Cpu className="h-4 w-4" /> }
         ]
     }
 ];
@@ -220,40 +219,40 @@ const Skills = () => {
                                     <div>
                                         <div className="flex justify-between items-center mb-2">
                                             <span className="font-medium text-sm sm:text-base">Frontend & Design</span>
-                                            <span className="text-primary font-semibold text-sm sm:text-base">80%</span>
+                                            <span className="text-primary font-semibold text-sm sm:text-base">97%</span>
                                         </div>
                                         <div className="w-full h-2 bg-border/30 rounded-full overflow-hidden">
-                                            <div className="h-full rounded-full bg-gradient-to-r from-purple-500 to-purple-600" style={{ width: "80%" }} />
+                                            <div className="h-full rounded-full bg-gradient-to-r from-purple-500 to-purple-600" style={{ width: "97%" }} />
                                         </div>
                                     </div>
 
                                     <div>
                                         <div className="flex justify-between items-center mb-2">
                                             <span className="font-medium text-sm sm:text-base">Backend & Databases</span>
-                                            <span className="text-primary font-semibold text-sm sm:text-base">70%</span>
+                                            <span className="text-primary font-semibold text-sm sm:text-base">98%</span>
                                         </div>
                                         <div className="w-full h-2 bg-border/30 rounded-full overflow-hidden">
-                                            <div className="h-full rounded-full bg-gradient-to-r from-blue-500 to-blue-600" style={{ width: "70%" }} />
+                                            <div className="h-full rounded-full bg-gradient-to-r from-blue-500 to-blue-600" style={{ width: "98%" }} />
                                         </div>
                                     </div>
 
                                     <div>
                                         <div className="flex justify-between items-center mb-2">
                                             <span className="font-medium text-sm sm:text-base">Mobile Development</span>
-                                            <span className="text-primary font-semibold text-sm sm:text-base">75%</span>
+                                            <span className="text-primary font-semibold text-sm sm:text-base">99%</span>
                                         </div>
                                         <div className="w-full h-2 bg-border/30 rounded-full overflow-hidden">
-                                            <div className="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600" style={{ width: "75%" }} />
+                                            <div className="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600" style={{ width: "99%" }} />
                                         </div>
                                     </div>
 
                                     <div>
                                         <div className="flex justify-between items-center mb-2">
                                             <span className="font-medium text-sm sm:text-base">Tools & DevOps</span>
-                                            <span className="text-primary font-semibold text-sm sm:text-base">65%</span>
+                                            <span className="text-primary font-semibold text-sm sm:text-base">89%</span>
                                         </div>
                                         <div className="w-full h-2 bg-border/30 rounded-full overflow-hidden">
-                                            <div className="h-full rounded-full bg-gradient-to-r from-amber-500 to-amber-600" style={{ width: "65%" }} />
+                                            <div className="h-full rounded-full bg-gradient-to-r from-amber-500 to-amber-600" style={{ width: "89%" }} />
                                         </div>
                                     </div>
                                 </div>

@@ -288,8 +288,32 @@ const Projects = () => {
                         </motion.div>
                     ))}
                 </div>
-
-
+                {/* Call to Action */}
+                <div className="text-center mt-12 sm:mt-16">
+                    <Card className="max-w-3xl mx-auto border-border/30 bg-gradient-to-r from-primary/5 via-transparent to-primary/5 backdrop-blur-sm">
+                        <CardContent className="p-6 sm:p-8">
+                            <h3 className="text-xl sm:text-2xl font-bold mb-4">Explore My GitHub</h3>
+                            <p className="text-base sm:text-lg text-muted-foreground mb-6">
+                                Check out my repositories, contributions, and open-source projects on GitHub.
+                            </p>
+                            <Button
+                                size="lg"
+                                className="px-6 py-3 sm:px-8 sm:py-4"
+                                asChild
+                            >
+                                <a
+                                    href="https://github.com/benji181"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center justify-center gap-2"
+                                >
+                                    <Github className="h-5 w-5" /> {/* Add this import: import { Github } from "lucide-react"; */}
+                                    Visit My GitHub
+                                </a>
+                            </Button>
+                        </CardContent>
+                    </Card>
+                </div>
             </div>
         </section>
     );
