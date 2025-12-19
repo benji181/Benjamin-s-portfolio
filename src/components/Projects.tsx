@@ -21,7 +21,7 @@ const Projects = () => {
         {
             title: "Pro-Connect",
             description: "A comprehensive job hunting platform connecting job seekers with employers through intelligent matching algorithms and real-time notifications.",
-            image: "Assests\\ProjectImages\\proconnectimage.png",
+            image: "/proconnectimage.png",
             liveUrl: "https://proconnect-eta.vercel.app/",
             githubUrl: "https://github.com/benji181/proconnect",
             technologies: ["React", "Firebase", "Tailwind CSS", "Context API", "Vercel"],
@@ -38,7 +38,7 @@ const Projects = () => {
         {
             title: "Number Guessing Game",
             description: "An interactive web game built with Django backend and modern frontend technologies that challenges users' logical thinking skills.",
-            image: "Assests\\ProjectImages\\Number-Guessing-Game.png",
+            image: "/Number-Guessing-Game.png",
             liveUrl: "#",
             githubUrl: "https://github.com/benji181/NGGame",
             technologies: ["Django", "JavaScript", "HTML5", "CSS3", "Python", "SQLite"],
@@ -54,7 +54,7 @@ const Projects = () => {
         {
             title: "Sky-Clock",
             description: "A Flutter-based mobile application providing real-time weather updates and global time zone conversions with beautiful visualizations.",
-            image: "Assests\\ProjectImages\\Sky-clock.png",
+            image: "/Sky-clock.png",
             liveUrl: "#",
             githubUrl: "https://github.com/benji181/SkyClock.git",
             technologies: ["Flutter", "Dart", "REST APIs", "Provider", "Firebase"],
