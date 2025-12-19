@@ -173,19 +173,18 @@ const Hero = () => {
                     </div>
 
                     {/* Resume Button */}
-             <div className="pt-2 sm:pt-4">
-    <a
-        href="/resume_olabisi_boluwatife.pdf" // Changed path
-        download="Olabisi_Boluwatife_Resume.pdf"
-        className="inline-flex items-center px-6 py-4 sm:px-8 sm:py-6 text-base sm:text-lg font-medium bg-green-600 text-white border-2 border-green-900 rounded-lg shadow-lg hover:bg-transparent hover:text-green-400 hover:border-green-600 hover:shadow-green-500/20 transition-all duration-300"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-        Hire me
-    </a>
-</div>
-
+                    <div className="pt-2 sm:pt-4">
+                        <a
+                            href="/resume_olabisi_boluwatife.pdf" // Changed path
+                            download="Olabisi_Boluwatife_Resume.pdf"
+                            className="inline-flex items-center px-6 py-4 sm:px-8 sm:py-6 text-base sm:text-lg font-medium bg-green-600 text-white border-2 border-green-900 rounded-lg shadow-lg hover:bg-transparent hover:text-green-400 hover:border-green-600 hover:shadow-green-500/20 transition-all duration-300"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                            Hire me
+                        </a>
+                    </div>
                     {/* Social Links */}
                     <div className="flex justify-center gap-3 sm:gap-4 pt-6 sm:pt-8">
                         <a
