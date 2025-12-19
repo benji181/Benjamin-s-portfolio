@@ -19,7 +19,7 @@ const Experience = () => {
     const experiences = [
         {
             type: "work",
-            logo: "Assests/ProjectImages/gen128_solutions_logo (1).jpg",
+            logo: "/gen128_solutions_logo (1).jpg",
             company: "GN128 Solutions Limited",
             role: "Full-Stack Developer (Mobile/Web)",
             period: "2024 - Present",
@@ -55,7 +55,8 @@ const Experience = () => {
         {
 
             type: "work",
-            logo: "Assests/ProjectImages/gen128_solutions_logo (1).jpg",company: "CBC Crypto Bootcamp",
+            logo: "/crypto_bootcamp_community_logo.jpg",
+            company: "CBC Crypto Bootcamp",
             role: "Frontend Developer",
             period: "2023 - 2024",
             location: "Remote",
@@ -71,7 +72,7 @@ const Experience = () => {
         },
         {
             type: "work",
-            logo: "Assests/ProjectImages/logo_swf.gif",
+            logo: "/logo_swf.gif",
             company: "Nigerian Software Foundation (NSF)",
             role: "Website Developer",
             period: "January 2021",
@@ -91,7 +92,7 @@ const Experience = () => {
 
         {
             type: "education",
-            logo: "Assests/ProjectImages/download.png",
+            logo: "/download.png",
             company: "Aptech Computer Education",
             role: "Advanced Diploma in Software Engineering",
             period: "2023 - 2025",
