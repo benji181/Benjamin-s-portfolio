@@ -184,7 +184,7 @@ const Hero = () => {
         <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
         Hire me
     </a>
-</div>>
+</div>
 
                     {/* Social Links */}
                     <div className="flex justify-center gap-3 sm:gap-4 pt-6 sm:pt-8">
