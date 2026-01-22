@@ -19,6 +19,22 @@ const Experience = () => {
     const experiences = [
         {
             type: "work",
+            logo: "/ETHICA-RESOLVE-MAIN.png",
+            company: "Ethica Resolve CC",
+            role: "Website Developer/ Executive Assistant",
+            period: "jan 2026 - Present",
+            location: "Lagos, Nigeria (Remote)",
+            description: "Web Developer & Digital Specialist skilled in designing, developing, and maintaining responsive, high-performance websites aligned with brand and business goals.",
+            technologies: ["Wix", "Html", "css", "Scss", "Automations", "React", "JavaScript"],
+            achievements: [
+                "Full-cycle web development with focus on functionality, mobile responsiveness, performance optimization, and security best practices",
+                "Executing timely updates for coaching programs, digital products, drop shipping stores, and content launches",
+                "Supported by strong collaboration with leadership and stakeholders to drive digital growth in coaching and e-commerce. Passionate about delivering impactful online experiences."
+            ],
+            url: "https://ethicaresolvecc.com/"
+        },
+        {
+            type: "work",
             logo: "/gen128_solutions_logo (1).jpg",
             company: "GN128 Solutions Limited",
             role: "Full-Stack Developer (Mobile/Web)",
